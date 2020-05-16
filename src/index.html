@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki</title>
+  <link rel="icon" type="images/png" href="">
+   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+  <meta name='author' content='Marie Slavina, Max Novikov'>
+</head>
+<body>
+  <div class="page">
+    <div class="content">
+      <section class="related">
+        <h3 class="related__title">Related</h3>
+        <ul class="related__list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </section>
+      <section class="new-data">
+        <h3 class="new-data__title"> New data</h3>
+        <p class="new-data__content"></p>
+        <p class="new-data__tegs"></p>
+        <button class="new-data__button" placeholder="preview"></button>
+        <button class="new-data__button" placeholder="save"></button>
+      </section>
+      <section class="assets"></section>
+        <h3 class="assets__title">Assets</h3>
+        <p class="assets__content"></p>
+    </div>
+
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
