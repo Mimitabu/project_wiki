@@ -1,2 +1,7 @@
+@import url('./vendor/fonts.css');
+
 @import url('./blocks/page/page.css');
 @import url('./blocks/content/content.css');
+@import url('./blocks/new-data/new-data.css');
+@import url('./blocks/related/related.css');
+@import url('./blocks/assets/assets.css');

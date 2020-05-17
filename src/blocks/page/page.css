@@ -1,5 +1,7 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #ECEFF4;
+    color: rgb(59, 66, 82);
+    font-family: 'Roboto';
 }
 
 .page {

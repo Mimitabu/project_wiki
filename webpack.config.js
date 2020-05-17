@@ -22,10 +22,14 @@ module.exports = {
   {
         test: /\.css$/,
         use:  [MiniCssExtractPlugin.loader, 'css-loader']
-       }
+       },
+  {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=./vendor/[name].[ext]',
+      },
     ]
   },
-  plugins: [ 
+  plugins: [
     new MiniCssExtractPlugin({
         filename: 'style.[contenthash].css'
     }),

@@ -1,0 +1,9 @@
+.new-data__button {
+  min-width: 100px;
+  min-height: 25px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #81A1C1;
+}
